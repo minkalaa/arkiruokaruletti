@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TodoList from './components/FoodList';
+import FoodList from './components/FoodList';
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
               Ruletin tuloksen paikka</h1>
           </div>
           <div className="col-sm-8">
-            <TodoList />
+            <FoodList />
           </div>
         </div>
       </div>
