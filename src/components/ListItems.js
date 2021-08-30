@@ -1,8 +1,21 @@
 import React, {Component} from "react";
+import { Trash } from 'react-bootstrap-icons';
 
 class ListItems extends Component {
+    constructor(props) {
+        super(props);
+
+        this.createItems = this.createItems.bind(this);
+    }
+
+    delete(key) {
+        console.log(key);
+        this.props.delete(key);
+    }
     createItems(item) {
-        return <li key={item.key}>{item.text}</li>
+        return <li  
+        key={item.key}>{item.text} 
+        <Trash className="delBtn" onClick={() => this.delete(item.key)} /></li>
     }
 
     render() {

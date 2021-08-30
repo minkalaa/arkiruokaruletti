@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TodoList from './components/ToDoList';
+import TodoList from './components/FoodList';
 
 
 function App() {
