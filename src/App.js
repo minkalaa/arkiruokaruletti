@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FoodList from './components/FoodList';
+import FortuneWheel from './components/FortuneWheel';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
           <div className="col-sm-4">
             <h1 className="text-warning">
               Pyörivä ruletti tulee tähän</h1>
+              <FortuneWheel />
           </div>
           <div className="col-sm-8">
             <h1 className="text-warning">Arkiruokaruletti</h1>
