@@ -82,7 +82,6 @@
     user-select: none;
   }
   #spin:after {
-    content: 'SPIN';
     text-align: center;
     line-height: 68px;
     color: #ccc;

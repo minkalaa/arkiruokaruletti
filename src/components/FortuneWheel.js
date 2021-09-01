@@ -23,7 +23,6 @@ class FortuneWheel extends Component {
               </div>
               
               <div id="spin">
-                <div id="inner-spin"></div>
               </div>
               
               <div id="shine"></div>
