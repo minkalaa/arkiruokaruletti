@@ -19,6 +19,7 @@ function App() {
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque vitae arcu quis pellentesque. Proin sed commodo ante. Donec fringilla finibus ex, eget porta nibh condimentum non. Fusce placerat nisi nisl, sed cursus metus pharetra eu.
             </p>
+            <FoodList />
           </div>
         </div>
         <div className="row">
@@ -27,7 +28,7 @@ function App() {
               Ruletin tuloksen paikka</h1>
           </div>
           <div className="col-sm-8">
-            <FoodList />
+            
           </div>
         </div>
       </div>
