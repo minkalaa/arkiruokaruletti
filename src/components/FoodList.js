@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ListItems from "./ListItems";
+import InitialItems from "./InitialItems";
 import "./ListStyle.css";
  
 class FoodList extends Component {
@@ -42,6 +43,8 @@ class FoodList extends Component {
         items: filteredItems
       });
     }
+
+
   render() {
     return (
       <div className="todoListMain">
@@ -54,6 +57,7 @@ class FoodList extends Component {
         </div>
         <ListItems entries={this.state.items}
                     delete={this.deleteItem} />
+        <InitialItems delete={this.deleteItem} />
       </div>
     );
   }
