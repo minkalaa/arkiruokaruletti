@@ -8,15 +8,6 @@ class ListItems extends Component {
         this.createItems = this.createItems.bind(this);
     }
 
-    /*componentDidMount() {
-        const preparedFoods = ["user1", "user2", "user3"];
-        const final = [];
-        for (let  food of preparedFoods) {
-            final.push(<li key={food}>{food}</li>);  }
-
-        return final;
-    } */
-
     delete(key) {
         this.props.delete(key);
     }
@@ -29,7 +20,6 @@ class ListItems extends Component {
     render() {
         var listEntries = this.props.entries;
         var addedItems = listEntries.map(this.createItems);
-        //var prepared = this.componentDidMount;
 
         return (
             <ul className="theList">
