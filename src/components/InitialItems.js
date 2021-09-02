@@ -25,6 +25,10 @@ const initialList = [
     {
         key: 'tonnikalapastavuoka',
         text: 'Tonnikalapastavuoka'
+    },
+    {
+        key: 'pyttipannu',
+        text: 'Pyttipannu'
     }
 ];
 
