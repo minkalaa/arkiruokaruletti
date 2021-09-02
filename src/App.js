@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FoodList from './components/FoodList';
 import FortuneWheel from './components/FortuneWheel';
+import RaffleBtn from './components/Raffle';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <div className="col-sm-4">
             <h1 className="text-warning">
               Ruletin tuloksen paikka</h1>
+              <RaffleBtn />
           </div>
           <div className="col-sm-8">
             
