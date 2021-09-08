@@ -1,14 +1,26 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 
-var result = "";
+const initResult = "";
 
-class RaffleBtn extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {result: ""};
-      }
+const RaffleBtn = () => {
+    const [result, setResult] = useState(initResult);
 
-    getLists() {
+    function startRaffle() {
+        rotateWheel();
+
+        setTimeout(function () { 
+            getLists() }, 6000);
+    }
+
+    function rotateWheel() {
+        var a = 1024;
+        var b = 9999;
+        var dgre = Math.floor(Math.random()*(a-b))+b;
+        document.getElementById("inner-wheel").style.transform="rotate("+dgre+"deg)";
+    }
+
+    function getLists() {
+
         var lists = document.querySelectorAll('ul');
         var ready = lists[1].children;
         var added = lists[0].children;
@@ -21,22 +33,19 @@ class RaffleBtn extends Component {
 
         var x = Math.floor(Math.random() * raffleList.length);
 
-        var result = raffleList[x];
+        var newResult = raffleList[x];
 
-        console.log(x, result);
+        console.log(x, newResult);
 
-        return result;
+        setResult(newResult);
 
     }
-
-    render() {
         return (
             <div>
-                <button onClick={this.getLists}>Arvo</button>
-                <p>{ result }</p>
+                <button onClick={()=> startRaffle()}>Arvo</button>
+                <p>{result}</p>
             </div>
         )
     }
-}
 
 export default RaffleBtn;

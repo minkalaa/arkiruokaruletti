@@ -37,8 +37,8 @@
     border-width: 130px 75px 0;
     border-color: #19c transparent;
     transform-origin: 75px 129px;
-    left: 50px;
-    top: -4px;
+    left: 45px;
+    top: -15px;
     opacity: 1;
   }
   #wheel .sec:nth-child(1) {
