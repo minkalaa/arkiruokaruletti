@@ -11,26 +11,23 @@ function App() {
       <div className="container text-center mt-5">
         <div className="row">
           <div className="col-sm-4">
-            <h1 className="text-warning">
-              Pyörivä ruletti tulee tähän</h1>
-              <FortuneWheel />
+            
           </div>
           <div className="col-sm-8">
-            <h1 className="text-warning">Arkiruokaruletti</h1>
+            <h1>Arkiruokaruletti</h1>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque vitae arcu quis pellentesque. Proin sed commodo ante. Donec fringilla finibus ex, eget porta nibh condimentum non. Fusce placerat nisi nisl, sed cursus metus pharetra eu.
             </p>
-            <FoodList />
           </div>
         </div>
         <div className="row">
           <div className="col-sm-4">
-            <h1 className="text-warning">
-              Ruletin tuloksen paikka</h1>
+          <FortuneWheel />
               <RaffleBtn />
           </div>
           <div className="col-sm-8">
-            
+            <h2>Ruokavaihtoehdot</h2>
+          <FoodList />
           </div>
         </div>
       </div>

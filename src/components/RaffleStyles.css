@@ -1,0 +1,24 @@
+.raffleBtn {
+    padding: 7px 20px;
+    margin: 5px 20px;
+    background-color: #e76f51;
+    border: none;
+    box-shadow: 5px 5px #127e5f;
+    float: right;
+}
+
+.raffleBtn:hover {
+    background-color: #f4a261;
+    cursor: pointer;
+}
+
+.resultBox {
+    color: #333;
+    background-color: #e9c46a;
+    padding: 15px;
+    margin: 20px 20px;
+    list-style: none;
+    box-shadow: 5px 5px #127e5f;
+    clear:both;
+    visibility: hidden;
+}

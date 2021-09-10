@@ -1,4 +1,5 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
+import './RaffleStyles.css';
 
 const initResult = "";
 
@@ -6,6 +7,8 @@ const RaffleBtn = () => {
     const [result, setResult] = useState(initResult);
 
     function startRaffle() {
+        setResult("");
+        document.getElementById("resultBox").style="visibility: hidden";
         rotateWheel();
 
         setTimeout(function () { 
@@ -38,12 +41,14 @@ const RaffleBtn = () => {
         console.log(x, newResult);
 
         setResult(newResult);
+        document.getElementById("resultBox").style="visibility: visible";
 
     }
         return (
             <div>
-                <button onClick={()=> startRaffle()}>Arvo</button>
-                <p>{result}</p>
+                <button className="raffleBtn"
+                 onClick={()=> startRaffle()}>Arvo</button>
+                <div id="resultBox" className="resultBox">{result}</div>
             </div>
         )
     }

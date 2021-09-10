@@ -55,9 +55,11 @@ class FoodList extends Component {
             <button type="submit">Lisää</button>
           </form>
         </div>
+        <div className="foodLists">
         <ListItems entries={this.state.items}
                     delete={this.deleteItem} />
         <InitialItems delete={this.deleteItem} />
+        </div>
       </div>
     );
   }
