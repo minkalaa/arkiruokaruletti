@@ -14,9 +14,10 @@ function App() {
             
           </div>
           <div className="col-sm-8">
-            <h1>Arkiruokaruletti</h1>
+            <h1 className="appTitle">Arkiruokaruletti</h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque vitae arcu quis pellentesque. Proin sed commodo ante. Donec fringilla finibus ex, eget porta nibh condimentum non. Fusce placerat nisi nisl, sed cursus metus pharetra eu.
+            Onko tämän päivän ruuan päättäminen vaikeaa? <br/>
+            Anna Ruletin päättää puolestasi!
             </p>
           </div>
         </div>
@@ -25,7 +26,7 @@ function App() {
           <FortuneWheel />
               <RaffleBtn />
           </div>
-          <div className="col-sm-8">
+          <div className="col-sm-8 mt-2">
             <h2>Ruokavaihtoehdot</h2>
           <FoodList />
           </div>

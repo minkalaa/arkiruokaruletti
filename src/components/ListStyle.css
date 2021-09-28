@@ -29,8 +29,14 @@
     font-size: 16px;
     background-color: #f7e5d6;
     border: none;
-    width: 85%;
+    width: 80%;
+    box-shadow: 5px 5px #e76f51;
   }
+  .todoListMain .header input:focus {
+    outline: none !important;
+    border:2px solid #e76f51;
+  }
+
   .todoListMain .header button {
     padding: 10px;
     font-size: 16px;
@@ -39,6 +45,7 @@
     background-color: #e9c46a;
     border: none;
     width: 10%;
+    box-shadow: 5px 5px #e76f51;
   }
   .todoListMain .header button:hover {
     background-color: #e76f51;
