@@ -35,10 +35,12 @@
   -webkit-text-stroke: 2px black;
 }
 
-h2 {
-  font-size: 2.5rem;
+.heading {
+  font-family: monospace;
+  font-size: 2.4rem;
   position:relative;
-  bottom: -18px;
-  font-family: serif;
-  font-weight: bold;
+  bottom: -20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }

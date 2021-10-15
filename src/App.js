@@ -13,21 +13,21 @@ function App() {
           <div className="col-sm-4">
             
           </div>
-          <div className="col-sm-8">
-            <h1 className="appTitle">Arkiruokaruletti</h1>
-            <p>
+          <div className="col-sm-12 col-md-12 col-lg-8">
+            <h1 className="appTitle">Arki<wbr/>ruoka<wbr/>ruletti</h1>
+            <p className="desc">
             Onko tämän päivän ruuan päättäminen vaikeaa? <br/>
             Anna Ruletin päättää puolestasi!
             </p>
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-4">
+          <div className="col-sm-12 col-md-6 col-lg-4">
           <FortuneWheel />
               <RaffleBtn />
           </div>
-          <div className="col-sm-8 mt-2">
-            <h2>Ruokavaihtoehdot</h2>
+          <div className="col-sm-12 col-md-6 col-lg-8 mt-2">
+            <h2 className="heading">Ruokavaihtoehdot</h2>
           <FoodList />
           </div>
         </div>
