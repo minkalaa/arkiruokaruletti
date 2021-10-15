@@ -12,7 +12,7 @@ class ListItems extends Component {
         this.props.delete(key);
     }
     createItems(item) {
-        return <li  
+        return <li  className="animate__animated animate__slideInDown"
         key={item.key}>{item.text} 
         <Trash className="delBtn" onClick={() => this.delete(item.key)} /></li>
     }

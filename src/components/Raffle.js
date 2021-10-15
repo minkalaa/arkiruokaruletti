@@ -1,14 +1,19 @@
 import React, { useState } from "react";
 import './RaffleStyles.css';
+import 'animate.css';
 
 const initResult = "";
 
 const RaffleBtn = () => {
     const [result, setResult] = useState(initResult);
+    const resultBox = document.getElementById("resultBox");
 
     function startRaffle() {
         setResult("");
         document.getElementById("resultBox").style="visibility: hidden";
+        if (resultBox.classList.contains('animate__animated')) {
+            resultBox.classList.remove('animate__animated', 'animate__bounceIn');
+        }
         rotateWheel();
 
         setTimeout(function () { 
@@ -41,7 +46,9 @@ const RaffleBtn = () => {
         console.log(x, newResult);
 
         setResult(newResult);
-        document.getElementById("resultBox").style="visibility: visible";
+
+        resultBox.style="visibility: visible";
+        resultBox.classList.add('animate__animated', 'animate__bounceIn');
 
     }
         return (
