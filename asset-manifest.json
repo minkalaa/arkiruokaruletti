@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/arkiruokaruletti/static/css/main.58fb98b2.chunk.css",
+    "main.js": "/arkiruokaruletti/static/js/main.155dc51d.chunk.js",
+    "main.js.map": "/arkiruokaruletti/static/js/main.155dc51d.chunk.js.map",
+    "runtime-main.js": "/arkiruokaruletti/static/js/runtime-main.ebde4665.js",
+    "runtime-main.js.map": "/arkiruokaruletti/static/js/runtime-main.ebde4665.js.map",
+    "static/css/2.b0f40361.chunk.css": "/arkiruokaruletti/static/css/2.b0f40361.chunk.css",
+    "static/js/2.ff2bc483.chunk.js": "/arkiruokaruletti/static/js/2.ff2bc483.chunk.js",
+    "static/js/2.ff2bc483.chunk.js.map": "/arkiruokaruletti/static/js/2.ff2bc483.chunk.js.map",
+    "static/js/3.e7e2d87d.chunk.js": "/arkiruokaruletti/static/js/3.e7e2d87d.chunk.js",
+    "static/js/3.e7e2d87d.chunk.js.map": "/arkiruokaruletti/static/js/3.e7e2d87d.chunk.js.map",
+    "index.html": "/arkiruokaruletti/index.html",
+    "static/css/2.b0f40361.chunk.css.map": "/arkiruokaruletti/static/css/2.b0f40361.chunk.css.map",
+    "static/css/main.58fb98b2.chunk.css.map": "/arkiruokaruletti/static/css/main.58fb98b2.chunk.css.map",
+    "static/js/2.ff2bc483.chunk.js.LICENSE.txt": "/arkiruokaruletti/static/js/2.ff2bc483.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebde4665.js",
+    "static/css/2.b0f40361.chunk.css",
+    "static/js/2.ff2bc483.chunk.js",
+    "static/css/main.58fb98b2.chunk.css",
+    "static/js/main.155dc51d.chunk.js"
+  ]
+}
